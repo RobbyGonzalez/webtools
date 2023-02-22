@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Hoobastank Fans</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ&apos;s</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h2>Contact Us!</h2>
+    </header>
+
+    <main>
+        <form name="contactUs" action="mailto:HoobastankJunkie@&infin;mail.com" method="post">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="firstName">First Name&colon;</label> <input type="text" name="firstName" id="firstName"
+                    required> <br>
+                <label for="lastName">Last Name&colon;</label> <input type="text" name="lastName" id="lastName"
+                    required> <br>
+                <label for="dateBirth">Date of Birth&colon;</label> <input type="date" name="dateBirth" id="dateBirth"> <br>
+                <label for="state">State&colon;</label>
+                <select name="state" id="state" required>
+                    <option value="">Select a state</option>
+                    <option value="1">Not in the USA</option>
+                    <option value="2">Alabama</option>
+                    <option value="3">Alaska</option>
+                    <option value="4">Arizona</option>
+                    <option value="5">Arkansas</option>
+                    <option value="6">California</option>
+                    <option value="7">Colorado</option>
+                    <option value="8">Conneticut</option>
+                    <option value="9">Delaware</option>
+                    <option value="10">Florida</option>
+                    <option value="11">Georgia</option>
+                    <option value="12">Hawaii</option>
+                    <option value="13">Idaho</option>
+                    <option value="14">Illinois</option>
+                    <option value="15">Indiana</option>
+                    <option value="16">Iowa</option>
+                    <option value="17">Kansas</option>
+                    <option value="18">Kentucy</option>
+                    <option value="19">Louisiana</option>
+                    <option value="20">Maine</option>
+                    <option value="21">Maryland</option>
+                    <option value="22">Massachusetts</option>
+                    <option value="23">Michigan</option>
+                    <option value="24">Minnesota</option>
+                    <option value="25">Mississippi</option>
+                    <option value="26">Missouri</option>
+                    <option value="27">Montana</option>
+                    <option value="28">Nebraska</option>
+                    <option value="29">Nevada</option>
+                    <option value="30">New Hampshire</option>
+                    <option value="31">New Jersey</option>
+                    <option value="32">New Mexico</option>
+                    <option value="33">New York</option>
+                    <option value="34">North Carolina</option>
+                    <option value="35">North Dakota</option>
+                    <option value="36">Ohio</option>
+                    <option value="37">Oklahoma</option>
+                    <option value="38">Oregon</option>
+                    <option value="39">Pennsylvania</option>
+                    <option value="40">Rhode Island</option>
+                    <option value="41">South Carolina</option>
+                    <option value="42">South Dakota</option>
+                    <option value="43">Tennessee</option>
+                    <option value="44">Texas</option>
+                    <option value="45">Utah</option>
+                    <option value="46">Vermont</option>
+                    <option value="47">Virginia</option>
+                    <option value="48">Washington</option>
+                    <option value="49">West Virginia</option>
+                    <option value="50">Wisconsin</option>
+                    <option value="51">Wyoming</option>
+                    <option value="52">Washington D.C.</option>
+                    <option value="53">Puerto Rico</option>
+                    <option value="54">US Virgin Islands</option>
+                </select> <br>
+                <label for="email">Email&colon;</label> <input type="email" name="email" id="email" required> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership (optional)</legend>
+                <label for="creatUser">Create an awesome username&colon;</label> <input type="text" name="creatUser"
+                    id="creatUser"> <br>
+                <label for="password">Create password&colon;</label> <input type="password" name="password"
+                    id="password"> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Survey</legend>
+                <p>Would you like to sign up for our fan club emails?</p>
+                <input type="radio" name="emails" id="yesEmails" value="1" checked> <label for="yesEmails">Yes</label> <br>
+                <input type="radio" name="emails" id="noEmails" value="2"> <label for="noEmails">No</label> <br>
+                <p>How did you find us? (check all that apply)</p> <!--Is there a way to require this without javaScript?-->
+                <input type="checkbox" name="findUs" id="social" value="1"> <label for="social">Social Media</label> <br>
+                <input type="checkbox" name="findUs" id="webSearch" value="2"> <label for="webSearch">Web Search</label> <br>
+                <input type="checkbox" name="findUs" id="fellowFan" value="3"> <label for="fellowFan">Through a fellow fan</label> <br>
+                <input type="checkbox" name="findUs" id="random" value="4"> <label for="random">Random</label> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+                <label for="textField"></label>
+                <textarea name="textField" id="textField" cols="80" rows="6" spellcheck="true" placeholder="Type your message here."
+                    required></textarea> <!--Will this return the client input to the server?-->
+            </fieldset>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <input type="hidden" name="messageEntry" id="messageEntry" value="1234">
+            <!--Would this value need to be assigned by the server, or can you use "" and have it assigned on the backend?-->
+        </form>
+    </main>
+</body>
+
+</html>

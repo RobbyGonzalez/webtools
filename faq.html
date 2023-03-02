@@ -23,11 +23,41 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <title>Hoobastank Fans</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        #faq a {
+            text-decoration: none;
+            color: #0A2299;
+        }
+        #faq li {
+            border: 2px solid #DDE3FD;
+            list-style-position: inside;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+        #faq {
+            padding-top: 1%;
+            padding-bottom: 2%;
+            list-style: none;
+            counter-reset: number;
+        }
+        #faq li:before {
+            content: counter(number) ". ";
+            counter-increment: number;
+            color: #0A2299;
+        }
+    </style>
+
 </head>
 
 <body>
     <header>
-        <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -35,12 +65,13 @@
                 <li><a href="faq.html">FAQ&apos;s</a></li>
                 <li><a href="contact_us.html">Contact</a></li>
             </ul>
-        </nav>
-        <h2 id="top">FAQ&apos;s</h2>
+        </nav> 
     </header>
 
     <main>
-        <ol>
+        <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
+        <h2 id="top">FAQ&apos;s</h2>
+        <ol id="faq">
             <li><a href="#one">When is the next album going to come out?</a></li>
             <li><a href="#two">How can I get an autograph?</a></li>
             <li><a href="#three">Where did the &infin; sign come from?</a></li>
@@ -59,7 +90,7 @@
             <dd>
                 <p>At the moment there is not any signs of new music being release from the illustrious band. Their last scheduled tour date is for May 2023, so we eagerly await to her more after that time.</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="two">How can I get an autograph?</dt>
@@ -67,7 +98,7 @@
             <dd>
                 <p>The best way to get an autograph from one of the band members to to attend one of their concerts and upgrade to VIP status. You can meet them after the show and don't forget to bring your memorabilia!</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="three">Where did the &infin; sign come from?</dt>
@@ -78,7 +109,7 @@
 
                 <p>Actually! I just made all that up! Ha! You should see the look on your face. &#9786;</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="four">Are all songs written by Hoobastank?</dt>
@@ -86,7 +117,7 @@
             <dd>
                 <p>Dan and Robb, the two founding members write all the songs.</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="five">Has Hoobastank written any songs for other bands or artists?</dt>
@@ -96,7 +127,7 @@
 
                 <p><small>This is fake news, and I hope you can appreciate the humor.</small></p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="six">Are the band members friends outside of work?</dt>
@@ -104,7 +135,7 @@
             <dd>
                 <p>Dan and Robb actually started the band in highschool, so yeah, of course they hang out on a personal level. As for the others, it's hard to say, but you can't really create art with others and not share some kind of personal connection.</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="seven">How did everyone meet?</dt>
@@ -112,7 +143,7 @@
             <dd>
                 <p>Dan and Robb met in highschool and the remaining members were actually recruited during audtions for various spots in the band.</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="eight">Is Hoobastank looking for talent?</dt>
@@ -121,7 +152,7 @@
                 <p>Hoobastank is not accepting new talent right now, but they are accepting new bookings! Please refer
                 to <a href="https://hoobastank.com/" target="_blank">Hoobastank.com</a> for more details.</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="nine">Where can I get Hoobastank <abbr title="merchandise">merch</abbr>?</dt>
@@ -135,7 +166,7 @@
                             target="_blank">redbubble.com</a></li>
                 </ul>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
 
             <dt id="ten">How do I contact Hoobastank?</dt>
@@ -143,12 +174,12 @@
             <dd>
                 <p>For bookings, please refer to their website <a href="https://hoobastank.com/" target="_blank">Hoobastank.com</a>, and for any other inquiries, try to engage with them on their social media accounts!</p>
 
-                <p><a href="#top">Back to top</a></p>
+                <p><a class="top" href="#top">Back to top</a></p>
             </dd>
         </dl>
 
     </main>
-    <!--add a link to dallas college AND and email ("malito:...."") link to the webmaster. for fun you can do a link with href="tel:2818080987" to call someone directly.-->
+    
         <footer>
             <div id="social">
                 <address>

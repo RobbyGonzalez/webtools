@@ -1,0 +1,108 @@
+/* color to use
+#082fe1 -bright blue favicon color
+#0A2299 -dark blue accent color
+#091034 -black blue accent color
+
+#798EF6 -faded perrywinkle color
+#DDE3FD -very faded perrywinkle color
+
+*/
+
+:root {
+    font-size: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #091034;
+}
+
+footer {
+    background-color: #798EF6;
+}
+
+header ul, header a {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: #DDE3FD;
+}
+
+header a:hover {
+    color: #798EF6;
+}
+
+footer a:link {
+    color: black;
+}
+
+footer a:visited {
+    color: #DDE3FD;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+h2-6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, li, th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.top {
+    text-decoration: none;
+    color: #0A2299;
+}
+
+table {
+    width: 100%;
+    border: none;
+    padding-bottom: 3%;
+}
+
+th, td {
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #a7a6a6;
+}
+
+tr:hover {
+    background-color: #DDE3FD;
+}
+
+table caption {
+    font-size: 300%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+dt {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+
+dd {
+    padding-bottom: 2%;
+}

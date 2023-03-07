@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -27,12 +28,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/nav_menu.css">
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="topnav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="faq.html">FAQ&apos;s</a></li>
                 <li><a href="contact_us.html">Contact</a></li>
@@ -43,42 +47,86 @@
     <main>
         <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
         <h2>Gallery</h2>
-        <figure>
-            <a href="images/japan_tour_lg.jpg" target="_blank"><img src="images/japan_tour_thumbnail.png" height="100" width="100" alt="a picture of Doug Robb singing"></a>
-            <figcaption>Doug Robb sings sweet tunes to his Fans on his global tour.</figcaption>
-        </figure>
-        <p>This was a beautiful moment captured by one of our fellow &quot;fans in arms&quot; at this year's Hoobastank tour in Japan. Doug Robb has such a powerful way of capturing an audience. I can feel his presense from here! I can&apos;t wait to see the band in May!</p>
-        
-        <figure>
-            <a href="images/collab_performance_lg.jpg" target="_blank"><img src="images/collab_performance_thumbnail.png" height="100" width="100" alt="two performers on stage"></a>
-            <figcaption>A collaboration performance with Sevendust at Yongsan.</figcaption>
-        </figure>
-        <p>West Coast and East Coast meet, but over seas! Hoobastank and Sevendust collaborated on a performance at the US Yongsan Military base in Seoul Korea. According to our sources, it was an epic dose of nystalgia made new again by this mix of two indie rock bands from the <time datetime="1990">90</time>&apos;s and early <time datetime="2000">2000</time>&apos;s.</p>
 
-        <figure>
-            <a href="images/cob_concert_lg.png" target="_blank"><img src="images/cob_concert_thumbnail.png" height="100" width="100" alt="Doug Robb sings to service men and women"></a>
-            <figcaption>Doug Robb performs for our service men and women at Fort Carson <time datetime="2005">2005</time>.</figcaption>
-        </figure>
-        <p>Hoobastank makes a special appearance at Fort Carson and swings by to perform at the state fair later. I love to see them making the most of their travels and making the most out of venues large and small. They love doing what they do, and we love listening to them.</p>
+        <article>
+            <figure>
+                <a href="images/japan_tour_lg.jpg" target="_blank"><img src="images/japan_tour_thumbnail.png"
+                        height="100" width="100" alt="a picture of Doug Robb singing"></a>
+                <figcaption>Doug Robb</figcaption>
+            </figure>
+            <p>This was a beautiful moment captured by one of our fellow &quot;fans in arms&quot; at this year's
+                Hoobastank tour in Japan. Doug Robb has such a powerful way of capturing an audience. I can feel his
+                presense from here! I can&apos;t wait to see the band in May!</p>
+        </article>
 
-        <figure>
-            <a href="images/young_hoobastank_thailand_music_awards_lg.jpg" target="_blank"><img src="images/young_hoobastank_thailand_music_awards_thumbnail.png" height="100" width="100" alt="band posing for a picture"></a>
-            <figcaption>The band poses for a picture at a red carpet event in Thailand <time datetime="2006">2006</time>.</figcaption>
-        </figure>
-        <p>An epic MTV event hosted in Bangkok, Thailand. Hoobastank got to perform, and be celebrated with, other artists such as Kelly Roland, Korn and Wang Leehom. The theme of the night was &quot;futuristic Asia,&quot; but based on the band&apos;s atire, it&apos;s safe to say they wanted to be planted firmly in the present.</p>
+        <article>
+            <figure>
+                <a href="images/collab_performance_lg.jpg" target="_blank"><img
+                        src="images/collab_performance_thumbnail.png" height="100" width="100"
+                        alt="two performers on stage"></a>
+                <figcaption>Collaboration</figcaption>
+            </figure>
+            <p>West Coast and East Coast meet, but over seas! Hoobastank and Sevendust collaborated on a performance
+                at the US Yongsan Military base in Seoul Korea. According to our sources, it was an epic dose of
+                nystalgia made new again by this mix of two indie rock bands from the <time
+                    datetime="1990">90</time>&apos;s and early <time datetime="2000">2000</time>&apos;s.</p>
+        </article>
 
-        <figure>
-            <a href="images/hoobastank_bayfest_twentyeleven-lg.jpg" target="_blank"><img src="images/hoobastank_bayfest_twentyeleven-thumbnail.png" height="100" width="100" alt="hoobastank band on stage"></a>
-            <figcaption>A solo guitar moment at BayFest <time datetime="2011">2011</time>.</figcaption>
-        </figure>
-        <p>Ah, Bayfest in the early <time datetime="2010">2010</time>&apos;s, those were the years! If you were around in the music scene at this time, you got to see a lot of the alt rock bands in their glory, just before the music genre started it&apos;s decline from mainstreem music. Hoobastank and 3 Doors Down performed along side the likes of Blake Shelton, Toby Keith, Ludacris, and Wiz Khalifa at BayFest <time datetime="2011">2011</time>. Man, it's crazy how times have changed.</p>
+        <article>
+            <figure>
+                <a href="images/cob_concert_lg.png" target="_blank"><img src="images/cob_concert_thumbnail.png"
+                        height="100" width="100" alt="Doug Robb sings to service men and women"></a>
+                <figcaption>Doug Robb <time
+                        datetime="2005">2005</time></figcaption>
+            </figure>
+            <p>Hoobastank makes a special appearance at Fort Carson and swings by to perform at the state fair
+                later. I love to see them making the most of their travels and making the most out of venues large
+                and small. They love doing what they do, and we love listening to them.</p>
+        </article>
 
-        <figure>
-            <a href="images/music_match_xmas_twothousandthree_lg.jpg" target="_blank"><img src="images/music_match_xmas_twothousandthree_thumbnail.png" height="100" width="100" alt="Doug Robb singing intensely"></a>
-            <figcaption>Doug Robb doing what he does best at Music Match Christmas party <time datetime="2003">2003</time>.</figcaption>
-        </figure>
-        <p>Don't forget! You can always higher out the band. I have never heard of this particular event, which leads me to believe it was a private gig. For booking questions, please refer to <a href="https://hoobastank.com/" target="_blank">Hoobastank.com</a> for the latest contact information on bookings.</p>
+        <article>
+            <figure>
+                <a href="images/young_hoobastank_thailand_music_awards_lg.jpg" target="_blank"><img
+                        src="images/young_hoobastank_thailand_music_awards_thumbnail.png" height="100" width="100"
+                        alt="band posing for a picture"></a>
+                <figcaption>The band <time
+                        datetime="2006">2006</time></figcaption>
+            </figure>
+            <p>An epic MTV event hosted in Bangkok, Thailand. Hoobastank got to perform, and be celebrated with,
+                other artists such as Kelly Roland, Korn and Wang Leehom. The theme of the night was
+                &quot;futuristic Asia,&quot; but based on the band&apos;s atire, it&apos;s safe to say they wanted
+                to be planted firmly in the present.</p>
+        </article>
+
+        <article>
+            <figure>
+                <a href="images/hoobastank_bayfest_twentyeleven-lg.jpg" target="_blank"><img
+                        src="images/hoobastank_bayfest_twentyeleven-thumbnail.png" height="100" width="100"
+                        alt="hoobastank band on stage"></a>
+                <figcaption>Dan Estrin <time datetime="2011">2011</time></figcaption>
+            </figure>
+            <p>Ah, Bayfest in the early <time datetime="2010">2010</time>&apos;s, those were the years! If you were
+                around in the music scene at this time, you got to see a lot of the alt rock bands in their glory,
+                just before the music genre started it&apos;s decline from mainstreem music. Hoobastank and 3 Doors
+                Down performed along side the likes of Blake Shelton, Toby Keith, Ludacris, and Wiz Khalifa at
+                BayFest <time datetime="2011">2011</time>. Man, it's crazy how times have changed.</p>
+        </article>
+
+        <article>
+            <figure>
+                <a href="images/music_match_xmas_twothousandthree_lg.jpg" target="_blank"><img
+                        src="images/music_match_xmas_twothousandthree_thumbnail.png" height="100" width="100"
+                        alt="Doug Robb singing intensely"></a>
+                <figcaption>Doug Robb <time
+                        datetime="2003">2003</time></figcaption>
+            </figure>
+            <p>Don't forget! You can always higher out the band. I have never heard of this particular event, which
+                leads me to believe it was a private gig. For booking questions, please refer to <a
+                href="https://hoobastank.com/" target="_blank">Hoobastank.com</a> for the latest contact
+                information on bookings.</p>
+        </article>
 
     </main>
 </body>
+
 </html>

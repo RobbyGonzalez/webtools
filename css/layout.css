@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+main { 
+    margin: 6% 0 0 0;
+} /*remove this after you fix the nav bar issue on the gallery page*/
+
+article {
+    border: solid 2px #0A2299;
+    margin: 2% 28%;
+    box-shadow: -1px 2px 5px #091034 ;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+figure {
+    float: left;
+    width: 5vw;
+    text-align: center;
+    margin: 7% 15% 9% 15%;
+}
+
+article:nth-child(even)>figure {
+    float: right;
+}
+
+article p {
+    padding: 2% 5%;
+}
+
+article img {
+    border: solid 2px #0A2299;
+    border-radius: 50%;
+    width: 125%;
+    height: 125%;
+}

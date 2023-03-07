@@ -10,6 +10,7 @@ article {
     border: solid 2px #0A2299;
     margin: 2% 28%;
     box-shadow: -1px 2px 5px #091034 ;
+    background-color: aliceblue;
 }
 
 article::after {
@@ -20,9 +21,9 @@ article::after {
 
 figure {
     float: left;
-    width: 5vw;
+    width: 6vw;
     text-align: center;
-    margin: 7% 15% 9% 15%;
+    margin: 3% 15% 11% 15%;
 }
 
 article:nth-child(even)>figure {

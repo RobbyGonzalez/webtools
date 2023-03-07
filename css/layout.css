@@ -6,10 +6,6 @@ html {
     box-sizing: inherit;
 }
 
-main { 
-    margin: 6% 0 0 0;
-} /*remove this after you fix the nav bar issue on the gallery page*/
-
 article {
     border: solid 2px #0A2299;
     margin: 2% 28%;

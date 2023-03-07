@@ -69,15 +69,7 @@ p, li, th, td, label {
     line-height: 1.5rem;
 }
 
-.check {
-    line-height: 1.4rem;
-}
-
-.top {
-    text-decoration: none;
-    color: #0A2299;
-}
-
+/*Table specific*/
 table {
     width: 100%;
     border: none;
@@ -106,6 +98,11 @@ dt {
     font-size: 150%;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 550;
+}
+
+.top {
+    text-decoration: none;
+    color: #0A2299;
 }
 
 dd {
@@ -164,3 +161,20 @@ legend {
 fieldset p {
     margin: .5% 0%
 }
+
+label, input, input[type=date] {
+    margin: 6px 2px;
+}
+
+label, select {
+    margin: 6px 2px;
+}
+
+label, input[type=email] {
+    margin: 6px 2px;
+}
+
+.check {
+    line-height: 1.4rem;
+}
+

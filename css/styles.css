@@ -63,6 +63,8 @@ footer a:hover {
 h1 {
     font-family: 'Rock Salt', cursive;
     text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 h2-6, legend {
@@ -80,7 +82,6 @@ p, li, th, td, label {
 
 /*Table specific*/
 table {
-    width: 100%;
     border: none;
     padding-bottom: 3%;
 }
@@ -118,6 +119,11 @@ dd {
     padding-bottom: 2%;
 }
 /*Form specific*/
+form {
+    width: 80vw;
+    margin: 0 10vw;
+}
+
 input {
     padding: 3px 4px;
     border: 1px solid #555;

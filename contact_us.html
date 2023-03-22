@@ -24,6 +24,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Hoobastank Fans</title>
     
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
@@ -46,16 +47,16 @@
     <main>
         <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
         <h2>Contact Us!</h2>
-        <form name="contactUs" action="mailto:HoobastankJunkie@&infin;mail.com" method="post">
+        <form name="contactUs" action="mailto:HoobastankJunkie@&infin;mail.com" method="post" class="w3-container">
             <fieldset>
                 <legend>Personal Details</legend>
-                <label for="firstName">First Name&colon;</label> <input type="text" name="firstName" id="firstName"
+                <label for="firstName">First Name&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="text" name="firstName" id="firstName"
                     required> <br>
-                <label for="lastName">Last Name&colon;</label> <input type="text" name="lastName" id="lastName"
+                <label for="lastName">Last Name&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="text" name="lastName" id="lastName"
                     required> <br>
-                <label for="dateBirth">Date of Birth&colon;</label> <input type="date" name="dateBirth" id="dateBirth"> <br>
+                <label for="dateBirth">Date of Birth&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="date" name="dateBirth" id="dateBirth"> <br>
                 <label for="state">State&colon;</label>
-                <select name="state" id="state" required>
+                <select class="w3-select w3-border w3-hover-border-deep-purple" name="state" id="state" required>
                     <option value="">Select a state</option>
                     <option value="1">Not in the USA</option>
                     <option value="2">Alabama</option>
@@ -112,38 +113,38 @@
                     <option value="53">Puerto Rico</option>
                     <option value="54">US Virgin Islands</option>
                 </select> <br>
-                <label for="email">Email&colon;</label> <input type="email" name="email" id="email" required> <br>
+                <label for="email">Email&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="email" name="email" id="email" required> <br>
             </fieldset>
 
             <fieldset>
                 <legend>Membership (optional)</legend>
-                <label for="creatUser">Create an awesome username&colon;</label> <input type="text" name="creatUser"
+                <label for="creatUser">Create an awesome username&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="text" name="creatUser"
                     id="creatUser"> <br>
-                <label for="password">Create password&colon;</label> <input type="password" name="password"
+                <label for="password">Create password&colon;</label> <input class="w3-input w3-border w3-hover-border-deep-purple" type="password" name="password"
                     id="password"> <br>
             </fieldset>
 
             <fieldset>
                 <legend>Survey</legend>
                 <p>Would you like to sign up for our fan club emails?</p>
-                <input type="radio" name="emails" id="yesEmails" value="1" checked> <label for="yesEmails" class="check">Yes</label> <br>
-                <input type="radio" name="emails" id="noEmails" value="2"> <label for="noEmails" class="check">No</label> <br>
+                <input class="w3-radio" type="radio" name="emails" id="yesEmails" value="1" checked> <label for="yesEmails" class="check">Yes</label> <br>
+                <input class="w3-radio" type="radio" name="emails" id="noEmails" value="2"> <label for="noEmails" class="check">No</label> <br>
                 <p>How did you find us? (check all that apply)</p> <!--Is there a way to require this without javaScript?-->
-                <input type="checkbox" name="findUs" id="social" value="1"> <label for="social" class="check">Social Media</label> <br>
-                <input type="checkbox" name="findUs" id="webSearch" value="2"> <label for="webSearch" class="check">Web Search</label> <br>
-                <input type="checkbox" name="findUs" id="fellowFan" value="3"> <label for="fellowFan" class="check">Through a fellow fan</label> <br>
-                <input type="checkbox" name="findUs" id="random" value="4"> <label for="random" class="check">Random</label> <br>
+                <input class="w3-check" type="checkbox" name="findUs" id="socialMedia" value="1"> <label for="socialMedia" class="check">Social Media</label> <br>
+                <input class="w3-check" type="checkbox" name="findUs" id="webSearch" value="2"> <label for="webSearch" class="check">Web Search</label> <br>
+                <input class="w3-check" type="checkbox" name="findUs" id="fellowFan" value="3"> <label for="fellowFan" class="check">Through a fellow fan</label> <br>
+                <input class="w3-check" type="checkbox" name="findUs" id="random" value="4"> <label for="random" class="check">Random</label> <br>
             </fieldset>
 
             <fieldset>
                 <legend>Message</legend>
                 <label for="textField"></label>
-                <textarea name="textField" id="textField" cols="80" rows="6" spellcheck="true" placeholder="Type your message here."
+                <textarea class="w3-border w3-hover-border-deep-purple" name="textField" id="textField" cols="80" rows="6" spellcheck="true" placeholder="Type your message here."
                     required></textarea> <!--Will this return the client input to the server?-->
             </fieldset>
 
-            <input type="submit" value="submit">
-            <input type="reset" value="reset">
+            <input class="w3-btn w3-gray" type="submit" value="submit">
+            <input class="w3-btn w3-gray" type="reset" value="reset">
             <input type="hidden" name="messageEntry" id="messageEntry" value="1234">
             <!--Would this value need to be assigned by the server, or can you use "" and have it assigned on the backend?-->
         </form>

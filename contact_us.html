@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
@@ -14,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -23,7 +26,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <title>Hoobastank Fans</title>
-    
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,18 +36,17 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav class="topnav">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="faq.html">FAQ&apos;s</a></li>
-                <li><a href="contact_us.html">Contact</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="faq.html">FAQ&apos;s</a>
+            <a href="about_us.html">About</a>
+            <a class="active" href="contact_us.html">Contact</a>
         </nav>
     </header>
 
-    <main>
+    <main id="home">
         <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
         <h2>Contact Us!</h2>
         <form name="contactUs" action="mailto:HoobastankJunkie@&infin;mail.com" method="post" class="w3-container">
@@ -150,20 +152,15 @@
         </form>
     </main>
         
-    <footer>
-        <div id="social">
-            <address>
-                <p>Follow us!</p>
-                <a href="#" target="_blank">facebook image</a> <a href="#" target="_blank">twitter image</a>
-            </address>
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/RobbyGonzalez09/" target="_blank""><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/robby-gonzalez-78476746/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
         </div>
-
-        <div id="contact">
-            <address>
-                <p>Contact the <i>Webmaster</i> at <a href="mailto:HoobastankJunkie@&infin;mail.com">HoobastankJunkie@&infin;mail.com</a></p>
-                <p>Made possible by <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College.</a></p>
-            </address>
-        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+        class="w3-hover-text-green">w3.css</a> and <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College.</a></p>
+        <p>Contact the Webmaster at <a href="mailto:HoobastankJunkie@&infin;mail.com">HoobastankJunkie@&infin;mail.com</a></p>
     </footer>
 </body>
 

@@ -1,0 +1,45 @@
+#gridLayout {
+    display: grid;
+    grid: repeat(3, auto) / 10% auto;
+    grid-template-areas: 
+        "navBar header"
+        "navBar main"
+        "navBar footer"
+        ;
+}
+
+#header {
+    grid-area: header;
+    background-color: white;
+}
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+/*start nav element*/
+#navLeft {
+    grid-area: navBar;
+    width: auto;
+    background-color: #091034;
+    /* display: grid; */
+    /* grid: repeat(4, 1fr) / 1fr; */
+    /* grid-auto-rows: auto;
+    grid-template-columns: 1fr; */
+}
+
+.topnav {
+    display: grid;
+    background-color: #091034;
+    /* grid: repeat(4, 1fr) / 1fr; */
+    justify-content: center;
+}
+/*end nav element*/
+
+.menuItem {
+
+}

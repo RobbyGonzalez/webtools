@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
@@ -30,28 +33,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav_menu.css">
-</head>
+    <!-- <link rel="stylesheet" href="css/gridlayout.css"> -->
+</head> 
 
-<body>
-    <header>
-        <nav class="topnav">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="faq.html">FAQ&apos;s</a></li>
-                <li><a href="contact_us.html">Contact</a></li>
-            </ul>
+<body id="gridLayout">
+    <header id="header">
+        <nav id="navLeft" class="topnav">
+            <a class="active menuItem" href="index.html">Home</a>
+            <a class="menuItem" href="gallery.html">Gallery</a>
+            <a class="menuItem" href="faq.html">FAQ&apos;s</a>
+            <a class="menuItem" href="about_us.html">About</a>
+            <a class="menuItem" href="contact_us.html">Contact</a>
         </nav>
     </header>
 
-    <main>
+    <main id="main">
         <h1>Hoobastank Fan Club <strong>(unofficial)</strong></h1>
         <section>
             <h2>The next concert is <time datetime="2023-02-03T19:00:00-09:00">February 3rd</time>, in Japan!</h2>
-            <p>Follow us on our social accounts to get the <em>latest</em> updates on Hoobastank performances.
-            </p>
         </section>
-        <section>
+        <section style="margin: auto 5%">
             <h3>Then and now</h3>
             <p>Hoobastank, originally known as Hoobustank, is an American rock band formed in 1994 in Agoura
                 Hills, California, by lead vocalist Doug Robb, guitarist Dan Estrin, drummer Chris Hesse, and
@@ -60,7 +61,7 @@
                 released on May 25, 2018. They have sold 10 million albums worldwide. The band is best known for
                 their biggest hit single, "The Reason".</p>
         </section>
-        <section>
+        <section style="margin: auto 5%">
             <h3>The musical evolution</h3>
             <p>Hoobastank has been categorized under genres such as post-grunge,alternative rock, hard rock, and
                 nu metal, On their early independent releases, the band used a funk metal and ska punk sound and
@@ -69,7 +70,7 @@
                 rock sound. The band's sound matured in their second album, The Reason, and became more melodic.
             </p>
         </section>
-        <section>
+        <section style="margin: auto 5%">
             <h3>Fame point - The Reason (2003-2005)</h3>
             <p>Their second album The Reason was released in December 2003. The single "Out of Control" was made
                 available for download on the band's website. Doug Robb said on the band's website: </p>
@@ -166,9 +167,15 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#header" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/RobbyGonzalez09/" target="_blank""><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/robby-gonzalez-78476746/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+        class="w3-hover-text-green">w3.css</a> and <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College.</a></p>
         <p>Contact the Webmaster at <a href="mailto:HoobastankJunkie@&infin;mail.com">HoobastankJunkie@&infin;mail.com</a></p>
-        <p>Made possible by <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College.</a></p>
     </footer>
 </body>
 

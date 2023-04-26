@@ -105,6 +105,10 @@ table caption {
     padding-bottom: 2%;
 }
 /*FAQ specific*/
+dl {
+    margin: 0 2%;
+}
+
 dt {
     font-size: 150%;
     font-family: 'Times New Roman', Times, serif;
